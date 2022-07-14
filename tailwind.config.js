@@ -6,9 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color:{
+      colors:{
         paleWhite: '#ffffff',
-        darkBlack: '#000000'
+        darkBlack: '#000000',
+        fadeRed: '#ad3333'
       }
     },
   },
