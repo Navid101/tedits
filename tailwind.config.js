@@ -9,7 +9,8 @@ module.exports = {
       colors:{
         paleWhite: '#ffffff',
         darkBlack: '#000000',
-        fadeRed: '#ad3333'
+        fadeRed: '#ad3333',
+        lightGray:'#F6F6F6'
       }
     },
   },

@@ -43,6 +43,7 @@ export const getStaticProps = async () => {
           url
         }
         comment
+        id
       }
     }
     `
