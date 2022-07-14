@@ -12,8 +12,8 @@ const works = ({data}) => {
         {
           works.map((item)=>{
             return(
-              <div className=''>
-                <Link key={item.id} href={item.url} passHref><a target="_blank"><Image src={Grablink(item.url,'max')} width="1280px" height="720px" className="object-cover transition duration-300 hover:scale-125"></Image></a></Link> 
+              <div className='' key={item.id}>
+                <Link href={item.url} passHref><a target="_blank"><Image src={Grablink(item.url,'max')} width="1280px" height="720px" className="object-cover transition duration-300 hover:scale-125"></Image></a></Link> 
               </div>
             )
           })
