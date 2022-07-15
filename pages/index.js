@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonials'
 export default function Home({data}) {
   const {featureds,reviews} = data
   return (
-    <div className="pt-24 flex flex-col space-y-24 items-center">
+    <div className="pt-12 xl:pt-24 flex flex-col space-y-12 xl:space-y-24 items-center">
       <h1 className="text-3xl text-center">Hi, My Name is Tasnim Omar</h1>
       <h1 className="text-3xl font-medium xl:w-1/2 text-center">I’m a freelance video editor specializing in funny gaming videos</h1>
       <div className="grid xl:grid-cols-3 gap-10 pt-6">

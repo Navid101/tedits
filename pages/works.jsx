@@ -7,8 +7,8 @@ import Link from 'next/link'
 const works = ({data}) => {
   const {works} = data
   return (
-    <div className="pt-24 flex flex-col space-y-24 items-center">
-      <div className="grid xl:grid-cols-3 gap-10 pt-6">
+    <div className="pt-12 xl:pt-24 flex flex-col space-y-24 items-center">
+      <div className="grid xl:grid-cols-3 gap-10 ">
         {
           works.map((item)=>{
             return(
