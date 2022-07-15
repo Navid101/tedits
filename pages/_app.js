@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Header from '../components/Header'
 function MyApp({ Component, pageProps,router }) {
   return (
-    <div className='container px-6 xl:px-8 xl:m-auto py-8'>
+    <div className='xl:container px-6 xl:px-8 xl:m-auto py-8'>
     <Header/>
     <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" variants={{
       pageInitial:{
