@@ -10,7 +10,8 @@ module.exports = {
         paleWhite: '#ffffff',
         darkBlack: '#000000',
         fadeRed: '#ad3333',
-        lightGray:'#F6F6F6'
+        lightGray:'#F6F6F6',
+        darkGray:'#F0F0F0',
       }
     },
   },
