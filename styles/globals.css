@@ -18,3 +18,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Silver{
+  background-color: #BBC2CC;
+}
+
+.Gold{
+  background-color: #FFCB00;
+}
+
+.Platinum{
+  background-color: #00A0E3;
+}
