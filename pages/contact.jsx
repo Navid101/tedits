@@ -4,7 +4,7 @@ import Email from '../components/Email'
 const data=[
   {
     logo:'discord',
-    content:'TasnimEdits#7826',
+    content:'Tasnim#7826',
   },
   {
     logo:'twitter',

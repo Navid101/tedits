@@ -15,7 +15,8 @@ const works = ({data}) => {
         {
           newWorks.map((item)=>{
             return(
-              <div className='' key={item.id}>
+              <div className='flex flex-col space-y-3' key={item.id}>
+                <h1 className='text-xl font-medium text-center'>{item.author}</h1>
                 <Link href={item.url} passHref><a target="_blank"><Image src={Grablink(item.url,'max')} width="1280px" height="720px" className="object-cover transition duration-300 hover:scale-125"></Image></a></Link> 
               </div>
             )
